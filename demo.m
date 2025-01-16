@@ -6,9 +6,9 @@ load(['webkb3.mat']);
 view_nums = size(data,1);
 cluster_nums = max(labels);
 
-option.lambda1 = 10.^-3;
-option.lambda2 = 1;
-option.lambda3 = 0.1;
+option.lambda1 = 10.^-1;
+option.lambda2 = 10.^-3;
+option.lambda3 = 10.^-3;
 option.sdim = {80,80,80};
 option.cdim = cluster_nums;
 option.numClust = cluster_nums;
