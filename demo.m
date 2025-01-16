@@ -1,7 +1,7 @@
 clear;
 clc;
 
-load(['mul_sources3.mat']);
+load(['webkb3.mat']);
 
 view_nums = size(data,1);
 cluster_nums = max(labels);
